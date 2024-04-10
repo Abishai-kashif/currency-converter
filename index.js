@@ -23,19 +23,19 @@ while (true) {
         {
             name: "fromCurrency",
             type: "list",
-            message: chalk.hex("#B9C4BB").bold("Select The currency you want to convert from: "),
+            message: color("Select The currency you want to convert from: "),
             choices: ["USD", "EUR", "GBP", "CNY", "JPY", "AUD", "INR", "PKR"],
         },
         {
             name: "toCurrency",
             type: "list",
-            message: chalk.hex("#B9C4BB").bold("Select The currency you want to convert to: "),
+            message: color("Select The currency you want to convert to: "),
             choices: ["USD", "EUR", "GBP", "CNY", "JPY", "AUD", "INR", "PKR"],
         },
         {
             name: "amount",
             type: "number",
-            message: chalk.hex("#B9C4BB").bold("Enter the amount you want to convert: "),
+            message: color("Enter the amount you want to convert: "),
             default: 1,
             validate: (ans) => ans > 0 ? true : "Amount must be greater than 0"
         }

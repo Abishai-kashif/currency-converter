@@ -1,6 +1,6 @@
 {
   "name": "project_currency_converter_by_abi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "making a currency converter cli tool.",
   "main": "index.js",
   "type": "module",
